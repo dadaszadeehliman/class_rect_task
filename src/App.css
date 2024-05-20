@@ -1,0 +1,92 @@
+.navbar{
+  display: flex;
+  justify-content: space-between;
+}
+.navbar_logo{
+  border: 1px solid white;
+  padding: 5px 15px;
+}
+.navbar_logo a{
+  text-decoration: none;
+  color: white;
+
+}
+.navbar__lists{
+  display: flex;
+  gap: 20px;
+}
+.navbar__lists li{
+  list-style-type: none;
+}
+.navbar__lists li a{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+.img{
+  background-image: linear-gradient(to right, rgba(68, 69, 70, 0.6), rgba(181, 183, 185, 0.6)), url(./assets/bg_1.jpg.webp);
+  height: 100vh;
+  padding-top: 40px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: content-box;
+  position: relative;
+}
+/* .img::after{
+  background-color: rgb(141, 137, 137);
+  width: 100%;
+  height: 100%;
+} */
+
+.button{
+  display: flex;
+  justify-content: center;
+}
+.button button{
+  font-size: 25px;
+}
+
+.form{
+  width: 100%;
+  background-color: orange;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+.form form input,select{
+  padding: 10px 20px;
+  margin-right: 20px;
+}
+
+.section_esas{
+  position: absolute;
+  bottom: 0;
+  left: 7.8%;
+
+}
+
+.button{
+  margin-bottom: 20vh;
+  
+}
+
+.Section_2_img{
+  height: 80vh;
+}
+.section_2_yazi{
+  display: flex;
+  align-items: center;
+}
+.section_2_yazi div h4{
+  color: darkgrey;
+}
+.yaziii{
+  text-align: center;
+  color: white;
+  margin: 30px;
+}
+
+.data_esas{
+  text-align: center;
+  margin-top: 50px;
+}

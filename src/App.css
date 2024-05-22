@@ -90,3 +90,54 @@
   text-align: center;
   margin-top: 50px;
 }
+.data_esas_img{
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+}
+.data_esas_qutu{
+  box-shadow: 0px 1px 18px -12px rgba(0, 0, 0, 0.75);
+  display: flex;
+  align-items: center;
+  padding: 15px;
+}
+.data_esas_esas{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-right: 5px;
+}
+.data_esas .btn{
+  border: 2px solid orange;
+  padding: 20px;
+}
+.data_esas .btn:hover{
+  background-color: orange;
+}
+
+
+.Section_img_esas{
+  background-image: linear-gradient(to right, rgba(68,69,70,0.6), rgba(68,69,70,0.6)), url(https://preview.colorlib.com/theme/tasty/images/bg_3.jpg.webp);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Section_img_esas h2{
+  color:  white;
+}
+
+.Section_about_esas{
+  transform: translateY(-100px);
+  background-color: white;
+  padding-left: 0;
+  padding-right: 0;
+}
+.Section_about_esas img{
+  width: 100%;
+}
+.Section_about_esas h3,p{
+  text-align: center;
+}

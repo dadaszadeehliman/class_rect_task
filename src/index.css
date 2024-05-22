@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+table,thead,tr,td,th{
+    border: 1px solid blueviolet;
+    text-align: center;
+}
+table{
+    margin: 0 auto;
+}
+.data_get_img{
+    width: 100px;
+}

@@ -1,5 +1,6 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
+import { Link } from 'react-router-dom'
 
 export const Navbar = () => {
   return (
@@ -15,6 +16,7 @@ export const Navbar = () => {
             <li ><a href="#">Blog</a></li>
             <li ><a href="#">About</a></li>
             <li ><a href="#">Contact</a></li>
+            <li><Link to='/Add'>Add</Link></li>
           </ul>
         </nav>
       </div>

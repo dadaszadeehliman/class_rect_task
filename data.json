@@ -69,27 +69,6 @@
       "Name": "Octopus with Vegetables",
       "About": "Meat, Potatoes, Rice, Tomatoe",
       "Money": "$29"
-    },
-    {
-      "id": "56",
-      "Money": "450$",
-      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1i5lvWSo_YBGu5UmnYuesBDaMzCR8dp4882Mxb_xPpw&s",
-      "Name": "antri",
-      "About": "yemli yemek dadli yemek"
-    },
-    {
-      "id": "57",
-      "Money": "450$",
-      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1i5lvWSo_YBGu5UmnYuesBDaMzCR8dp4882Mxb_xPpw&s",
-      "Name": "antri",
-      "About": "yemli yemek dadli yemek"
-    },
-    {
-      "id": "59",
-      "Money": "450$",
-      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1i5lvWSo_YBGu5UmnYuesBDaMzCR8dp4882Mxb_xPpw&s",
-      "Name": "antri",
-      "About": "yemli yemek dadli yemek"
     }
   ]
 }

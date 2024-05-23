@@ -10,13 +10,12 @@ export const Navbar = () => {
           <h3 className='navbar_logo'><a href="#">Tasty</a></h3>
           <ul className='navbar__lists'>
             <li><a href="#">Home</a></li>
-            <li ><a href="#">Menu</a></li>
-            <li ><a href="#">Specialties</a></li>
-            <li ><a href="#">Reservation</a></li>
-            <li ><a href="#">Blog</a></li>
-            <li ><a href="#">About</a></li>
-            <li ><a href="#">Contact</a></li>
-            <li><Link to='/Add'>Add</Link></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Specialties</a></li>
+            <li><a href="#">Reservation</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
           </ul>
         </nav>
       </div>

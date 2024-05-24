@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import Form from './form'
 import axios from 'axios'
+import { Link } from 'react-router-dom'
 
 
 export const Admin = () => {
@@ -10,11 +11,10 @@ export const Admin = () => {
         fetch('http://localhost:8000/users')
             .then(res => res.json())
             .then(tabledata => settabledata(tabledata))
-    }, [tabledata])
+    }, [])
      
     const getDelete=function(id){
         axios.delete('http://localhost:8000/users/'+id)
-        .then(response=>console.log(response))
     }
 
     return (
@@ -42,7 +42,7 @@ export const Admin = () => {
                                 <th>{element.Name}</th>
                                 <th>{element.About}</th>
                                 <th>{element.Money}</th>
-                                <th><button className='btn btn-primary m-3'>Edit</button></th>
+                                <th><Link to='/Edit'><button className='btn btn-primary m-3'>Edit</button></Link></th>
                                 <th><button className='btn btn-primary m-3' onClick={()=>getDelete(element.id)}>Delete</button></th>
                             </tr>
                         ) })}

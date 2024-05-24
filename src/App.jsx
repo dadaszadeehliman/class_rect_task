@@ -1,3 +1,4 @@
+import { Router, Routes } from 'react-router-dom'
 import './App.css'
 import { Add } from './components/Add'
 import { Admin } from './components/Admin'
@@ -7,6 +8,7 @@ import { Section_2 } from './components/Section_2'
 import { Section_about } from './components/Section_about'
 import { Section_img } from './components/Section_img'
 import { Data } from './components/data'
+import Edit from './components/Edit'
 
 function App() {
   return (

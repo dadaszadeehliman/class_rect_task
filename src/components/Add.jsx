@@ -11,7 +11,7 @@ export const Add = () => {
         fetch("http://localhost:8000/users")
             .then(res => res.json())
             .then(dataget => setdataget(dataget))
-    }, [dataget])
+    }, [])
 
     const elementDelete = function (id) {
         axios.delete('http://localhost:8000/users/' + id)

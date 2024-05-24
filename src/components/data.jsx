@@ -9,7 +9,7 @@ export const Data = () => {
         fetch('http://localhost:8000/users')
             .then(res => res.json())
             .then(data => setData(data))
-    }, [data])
+    }, [])
 
 
     return (
